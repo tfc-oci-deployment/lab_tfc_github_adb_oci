@@ -14,7 +14,7 @@ module "oci-adb" {
   region                    = var.region
   fingerprint               = var.fingerprint
   whitelisted_ips           = ["0.0.0.0/0"]
-  tag_namespace_name        = "trondataware"
+  tag_namespace_name        = "trondataware2"
   identity_tag_name         = "iac"
   freeform_tags =  {
     Environment = "fc-dev"
